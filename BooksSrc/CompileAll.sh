@@ -17,10 +17,10 @@ do
 done
 
 #Change folder's ".conf" files to ".folder" files
-for f in `find . -iname "*.conf"`
-do
-    b=`echo $f | sed 's/[.][/]//g' | sed -e 's/[.].*//g'`
-    mv $f $b".folder"
-done
+# for f in `find . -iname "*.conf"`
+# do
+#    b=`echo $f | sed 's/[.][/]//g' | sed -e 's/[.].*//g'`
+#    mv $f $b".folder"
+# done
 
 
